@@ -32,4 +32,4 @@ TODO: Write credits
 
 ## License
 
-TODO: Write license
+MIT license, see LICENSE file
