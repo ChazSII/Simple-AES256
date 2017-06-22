@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Simple-AES256", "Simple-AES256.vbproj", "{C830FBBD-FA9F-495F-A29F-CA87B020D201}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Simple-AES256", "Simple-AES256\Simple-AES256.vbproj", "{C830FBBD-FA9F-495F-A29F-CA87B020D201}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnitTest_SimpleAES", "UnitTest_SimpleAES\UnitTest_SimpleAES.vbproj", "{06AE8625-7FB8-4DC7-918E-8EE808A94D56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{C830FBBD-FA9F-495F-A29F-CA87B020D201}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C830FBBD-FA9F-495F-A29F-CA87B020D201}.Release|x64.ActiveCfg = Release|x64
 		{C830FBBD-FA9F-495F-A29F-CA87B020D201}.Release|x64.Build.0 = Release|x64
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Debug|x64.Build.0 = Debug|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Release|x64.ActiveCfg = Release|Any CPU
+		{06AE8625-7FB8-4DC7-918E-8EE808A94D56}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
