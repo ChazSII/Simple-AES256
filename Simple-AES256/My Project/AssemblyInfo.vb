@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -8,12 +9,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("SimpleCrypto")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("CS2Soft Software")> 
-<Assembly: AssemblyProduct("SimpleCrypto")>
+<Assembly: AssemblyTitle("Simple-AES256")>
+<Assembly: AssemblyDescription("Fork of Encryptamajig (https://github.com/jbubriski/Encryptamajig). Uses managed AES 256 with a 128 bit random salt and random initialization vector.")>
+<Assembly: AssemblyCompany("CS2Soft Software")>
+<Assembly: AssemblyProduct("Simple-AES256")>
 <Assembly: AssemblyCopyright("Copyright ©  2017")>
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
@@ -33,3 +34,5 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("2.0.0.0")>
 <Assembly: AssemblyFileVersion("2.0.0.0")>
+<Assembly: NeutralResourcesLanguage("en-US")>
+<Assembly: AssemblyCulture("en-US")>
